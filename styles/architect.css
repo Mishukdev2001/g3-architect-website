@@ -132,6 +132,21 @@ main {
     font-weight: 600;
     font-size: 1.25rem;
 }
+/* sponsors styles */
+.sponsors{
+    text-align: center;
+}
+.sponsors-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.sponsors-img-containe img{
+    width: 100px;
+
+}
+
 
 /* responsive media queries */
 /* mobile devices */
@@ -142,7 +157,8 @@ main {
 
     nav,
     .teams-container,
-    .facts-card-container 
+    .facts-card-container,
+    .sponsors-img-container 
     {
         flex-direction: column;
     }
