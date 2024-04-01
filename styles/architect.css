@@ -76,7 +76,7 @@ main {
     max-width: 1440px;
     margin: 7px0 auto;
 }
-
+/* teams related style */
 .teams-container {
     display: flex;
     align-items: center;
@@ -106,7 +106,43 @@ main {
     color: orange;
     font-weight: 700px;
 }
+/* features section styles*/
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.feature-content .card{
+    border-radius: 8px;
+    background: whitesmoke;
+    box-shadow: 0px 4px 30px 0px black;
+}
+.features .section-title{
+    border-left: 5px solid orange;
+    padding-left: 20px;
+}
+.feature-img img{
+    height: 90%;
+    margin-left: 50px;
+}
+.ten-years-badge{
+   background: orange; 
+   color: aliceblue;
+   border-radius: 8px;
+   width: 342px;
+   padding: 40px;
+   text-align: center;
+   position: relative;
+   bottom: 100px;
+}
+.ten-years-badge h2{
+font-size: 4rem;
+margin: 0;
 
+}
+.ten-years-badge p{
+    font-size: 1.5rem;
+}
 /* facts section */
 .facts-card-container {
     display: flex;
